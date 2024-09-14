@@ -1,0 +1,472 @@
+<!doctype html>
+<!--
+Website By Miradontsoa / MiVFX
+http://twitter.com/miradontsoa
+http://cutekit.net
+-->
+
+
+
+<html class="no-js" lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<!-- Page Title Here -->
+<title>Simpleux - Website template</title>
+
+<!-- Meta -->
+<!-- Page Description Here -->
+<meta name="description" content="A beautiful and creative portfolio template. It is mobile friend (responsive) and comes with smooth animations">
+
+<!-- Disable screen scaling-->
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, user-scalable=0">
+ 	
+	<!-- Web fonts and Web Icons -->
+<link rel="stylesheet" href="./assets/fonts/ionicons/stylesheet.css">
+
+<!-- Uncomment below to load individualy vendor CSS -->
+<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="./assets/js/prism.css">
+
+<!-- Main CSS files -->
+<link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body id="menu" class="dashboard-body"> 
+
+	<header class="navbar navbar-expand navbar-dark dashboard-nav">
+    <nav class="container-xxl flex-wrap flex-md-nowrap" aria-label="Main navigation">
+        <a class="navbar-brand p-0 mr-2" href="./index.html" aria-label="Bootstrap">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="33.336" viewBox="0 0 40 33.336">
+                <path id="book"
+                    d="M-1057.016-471.255c-3.609-3.364-9.634-3.917-15.64-3.917a2.707,2.707,0,0,1-2.7-2.828v-23.84a2.657,2.657,0,0,1,1.189-2.214,2.675,2.675,0,0,1,1.515-.444c5.714.025,9.982.729,13.035,2.167a12.115,12.115,0,0,1,2.73,1.735,1.316,1.316,0,0,1,.461,1v28.091a.341.341,0,0,1-.21.315.349.349,0,0,1-.137.028A.351.351,0,0,1-1057.016-471.255Zm2.925.05a.328.328,0,0,1-.2-.3V-499.6a1.321,1.321,0,0,1,.46-1,12.174,12.174,0,0,1,2.73-1.731c3.054-1.441,7.321-2.142,13.036-2.167a2.675,2.675,0,0,1,1.515.442,2.655,2.655,0,0,1,1.193,2.217v24a2.686,2.686,0,0,1-2.7,2.667c-9.688,0-13.5,1.776-15.665,3.9a.335.335,0,0,1-.233.094A.338.338,0,0,1-1054.091-471.205Z"
+                    transform="translate(1075.36 504.498)" fill="#ffffff" />
+            </svg>
+
+        </a>
+
+        <div
+            class="navbar-nav-scroll order-3 order-md-0 d-flex justify-content-center justify-content-md-start mt-1 mt-md-0">
+            <ul class="navbar-nav bd-navbar-nav flex-row py-2 py-md-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="true"
+                        href="./index.html">Docs</a>
+                </li>
+            </ul>
+        </div>
+
+        <ul class="navbar-nav nav-icons ml-sm-auto">
+
+        </ul>
+
+        <a class="btn btn-white d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3" href="https://cutekit.net/product">More Products</a>
+    </nav>
+</header>
+	<!-- BEGIN OF page main content --> 
+
+	<main class="dashboard-container container-xxl" role="main" >
+		<div class="dashboard-sidebar-left">
+			<nav class="collapse nav-sidebar-left" id="bd-docs-nav" aria-label="Docs navigation">
+	<ul class="list-unstyled mb-0">
+			<li class="my-1 ">
+				<a class="d-inline-flex align-items-center rounded " href="./index.html" role="button"
+					aria-expanded="false">
+					Introduction
+				</a>
+			</li>
+
+			<li class="my-1 ">
+				<a class="d-inline-flex align-items-center rounded " href="./html-structure.html" role="button"
+					aria-expanded="false">
+					HTML Structure
+				</a>
+			</li>
+
+			<li class="my-1 active">
+				<a class="d-inline-flex align-items-center rounded " href="./sections.html" role="button"
+					aria-expanded="false">
+					Sections
+				</a>
+			</li>
+
+
+			<li class="my-3 mr-4 border-top">
+			</li>
+			<li class="my-1 ">
+				<a class="d-inline-flex align-items-center rounded " href="./css.html" role="button"
+					aria-expanded="false">
+					CSS &amp; SCSS
+				</a>
+			</li>
+
+			<li class="my-1 ">
+				<a class="d-inline-flex align-items-center rounded " href="./javascript.html" role="button"
+					aria-expanded="false">
+					Javascript
+				</a>
+			</li>
+
+			<li class="my-1 ">
+				<a class="d-inline-flex align-items-center rounded " href="./php.html" role="button"
+					aria-expanded="false">
+					PHP Server
+				</a>
+			</li>
+
+
+ 
+ 
+ 
+	</ul>
+</nav>		</div>
+		
+		<div class="dashboard-main content">
+			<div class="dashboard-content" id="top">
+<div class="content-intro" id="overview">
+  <h2 class="">Sections</h2>
+  <p class="">A section represents a part of an web page main content.</p>
+</div>
+
+<h2 id="introduction">Introduction</h2>
+<p>
+  The main content of the page (located within the main or div tag with a class <code>page-main</code>)
+  is a combination of multiple blocks called Section.
+</p>
+
+<figure class="code-highlight">
+  <div class="code-title">Page Main content</div>
+<pre><code class="language-html"><span class="hljs-comment">&lt;!-- BEGIN OF page main content --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">main</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"page-main  ..."</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"..."</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"section ..."</span> <span class="hljs-attr">...</span>&gt;</span>
+    ... A section
+  <span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
+  <span class="hljs-comment">&lt;!-- ... Another section --&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">main</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- END OF page main content --&gt;</span>
+</code></pre>
+</figure>
+
+<p>
+  You may divide a main content into two columns by using Bootstrap column: add a class <code>page-twocols</code> to it.
+</p>
+<p>
+  To fix the position of a part on scroll,add class <code>col-fixed to it</code> such as:
+</p>
+<p>
+  To set a part scroll on page scroll,add class <code>col-scroll to it</code> such as:
+</p>
+<figure class="code-highlight">
+  <div class="code-title">Page Main content divided in two parts</div>
+<pre><code class="language-html"><span class="hljs-comment">&lt;!-- BEGIN OF page main content --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">main</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"page-main page-twocols ..."</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"..."</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row g-0 cols-container"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-12 col-lg-4 col-fixed"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"section ..."</span> <span class="hljs-attr">...</span>&gt;</span>
+        ... A section at left on large device
+      <span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-12 col-lg-8 col-scroll"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"section ..."</span> <span class="hljs-attr">...</span>&gt;</span>
+        ... A section at right on large device
+      <span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
+      <span class="hljs-comment">&lt;!-- Another section --&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>  
+<span class="hljs-tag">&lt;/<span class="hljs-name">main</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- END OF page main content --&gt;</span>
+</code></pre>
+</figure>
+ 
+
+<h2 id="structure">Section structure</h2>
+<p>
+  A section is represented by a section or a div tag with class section.
+  It has the following structure:
+</p>
+
+<figure class="code-highlight">
+  <div class="code-title">Section</div>
+<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"section ..."</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"SECTION_ID"</span> <span class="hljs-attr">data-section</span>=<span class="hljs-string">"DATA_SECTION_REF"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"section-cover"</span>&gt;</span>
+    ... background image
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"section-title"</span>&gt;</span>
+    ... background text title
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+  <span class="hljs-comment">&lt;!-- Begin of section body --&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"section-body"</span>&gt;</span>
+    <span class="hljs-comment">&lt;!-- content --&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"section-content ..."</span>&gt;</span>
+
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+    <span class="hljs-comment">&lt;!-- another content part --&gt;</span>
+
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-comment">&lt;!-- End of section body --&gt;</span>
+
+  <span class="hljs-comment">&lt;!-- Section footer : Arrows scroll down/up --&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">footer</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"section-footer footer-scrolldown"</span>&gt;</span>
+    <span class="hljs-comment">&lt;!-- a scroll down button --&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">footer</span>&gt;</span>
+
+<span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
+</code></pre>
+</figure>
+
+
+
+<h2 id="parameters">Parameters</h2>
+<p>A section appearance changes when certain classes is added to it.</p>
+
+<h3>Regular parameters</h3>
+<h4><code>hero-a</code> class</h4>
+<p>This class is used when a section represents a web page header (called hero).
+  Then its content appearance is set via CSS by defining rules for <code>.hero-a{ ... }</code> class.</p>
+
+<h4><code>section-a</code> class</h4>
+<p>This class is used by other type of a section (different than the hero).
+  Its content appearance is set via CSS by defining rules for <code>.section-a{ ... }</code> class.</p>
+
+
+<h4><code>fullscreen-h</code> class</h4>
+<p>This make the section to have at least a 100% viewport height. </p>
+<p>Use class <code>fullscreen-h-lg</code> to apply this option only for large devices.</p>
+
+<h4><code>content-white</code> class</h4>
+<p>This class tells that the section content will have a brigh text color (white, yellow, ...).
+  Then, when user scroll into this section, HTML tags with class <code>change-on-section-color</code>will get also a
+  <code>content-white</code> class.</p>
+<p>Check out the <code>home-3.html</code> file to see how to use it.</p>
+<h4><code>content-dark</code> class</h4>
+<p>This class tells that the section content will have a dark text color (black, blue, ...).
+  Then, when user scroll into this section, HTML tags with class <code>change-on-section-color</code>will get also a
+  <code>content-dark</code> class.</p>
+
+
+<h4>attribute <code>id="SECTION_ID"</code></h4>
+<p>Use this attribute when you use the <a href="./html-structure.html#anim-scroll-nav">scroll navigation
+    option</a> on the main page. It will be the id of the section.
+</p>
+
+<h3>Fullscreen slideshow parameters</h3>
+<p>These parameters are used when you use the <a
+    href="./html-structure.html#anim-scroll-slideshow-fullpage">slideshow scroll with fullpage js option</a> on
+  the main page.</p>
+<p>Check out the <code>index-fullpage.html</code> file to see how to use them.</p>
+<h4><code>fp-auto-height-responsive</code> class</h4>
+<p>Use this class when you use the fullpage.js plugin. It will make the height af the section to
+  fit the content on mobile devices.
+</p>
+
+<h4>attribute <code>data-section="SECTION_REF"</code></h4>
+<p>Use this attribute when you use the fullpage.js plugin. It will become the id of the section.
+</p>
+
+
+<h2 id="section-cover">Background image</h2>
+<p>Backgound image of a section is set by adding a div with class <code>section-cover</code> with the following
+  structure:</p>
+<figure class="code-highlight">
+  <div class="code-title">Section image</div>
+<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"section-cover"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fit"</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"IMG_FILE_OR_URL"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"image"</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+</figure>
+
+<p>You may need to add <code>overflow-hidden</code> class to it when 
+adding parallax animation (via the rellax.js plugin) to its content such as:</p>
+<figure class="code-highlight">
+  <div class="code-title">Section image</div>
+<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"section-cover overflow-hidden"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fit rellax"</span> <span class="hljs-attr">data-rellax-speed</span>=<span class="hljs-string">"-4"</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"IMG_FILE_OR_URL"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"image"</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+</figure>
+
+<h2 id="section-title">Background text</h2>
+<p>Backgound text of a section is set by adding a div with class <code>section-title</code> with the following
+  structure:</p>
+<figure class="code-highlight">
+  <div class="code-title">Background text</div>
+<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"section-title"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"text"</span>&gt;</span>Cool title<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+</figure>
+<h5>Bigger text</h5>
+<p><code>text</code> can have additional class <code>text-lg</code> to make it bigger.</p>
+
+<h5>Vertical oriented text</h5>
+<p>Add class <code>text-vert</code> to set its orientation to vertical.</p>
+
+<h5>Aligned left text</h5>
+<p>Add class <code>text-left</code> to align it at left.</p>
+
+<h5>Aligned right text</h5>
+<p>Add class <code>text-right</code> to align it at right.</p>
+
+<h4>Examples</h4>
+<p>Here is an example, adding parralax animation on page scroll to a section title (via the rellax.js plugin). 
+  Check out the <code>home-3.html</code> file to see it in action:</p>
+<figure class="code-highlight">
+  <div class="code-title">Parallax background text</div>
+<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"section-title"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"rellax"</span> <span class="hljs-attr">data-rellax-speed</span>=<span class="hljs-string">"-1.5"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"text text-lg"</span>&gt;</span>Cool title<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+</figure>
+
+<p>Here is a vertical oriented and right aligned text with parallax animation. 
+  Check out the <code>home-2.html</code> file to see it in action:</p>
+<figure class="code-highlight">
+  <div class="code-title">Parallax background text</div>
+<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"section-title title-right text-vert"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"rellax"</span> <span class="hljs-attr">data-rellax-speed</span>=<span class="hljs-string">"4"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h2</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"text text-lg"</span>&gt;</span>Cool title<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+</figure>
+
+
+<h2 id="section-body">Section body</h2>
+<p>This block represents the main content of a section. It has the following structure:</p>
+<figure class="code-highlight">
+  <div class="code-title">Section body</div>
+<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"section-body"</span>&gt;</span>
+  <span class="hljs-comment">&lt;!-- content --&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"section-content container content-width"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-..."</span>&gt;</span>
+        <span class="hljs-comment">&lt;!-- text, buttons, image, items ... --&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+  <span class="hljs-comment">&lt;!-- another content --&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"section-content container content-small"</span>&gt;</span>
+    ...
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+</figure>
+<p>It can be divided in to several parts. A part is represented by a div with class <code>section-content</code>.</p>
+<p>In a <code>section-content</code> you may add a Bootstrap <code>container</code> and set its with with <code>content-width</code>, <code>content-xl</code> , <code>content-full</code> classes.</p>
+
+<h2 id="section-footer">Section footer</h2>
+<p>Section footer embeds the scroll down button.</p>
+<p>Here is an example of how to use it:</p>
+<figure class="code-highlight">
+  <div class="code-title">Section body</div>
+<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">footer</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"section-footer hero-footer footer-scrolldown"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn-scrolldown-a"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#about"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"icon icon-scrolldown"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"text"</span>&gt;</span>Scroll Down<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">footer</span>&gt;</span>
+</code></pre>
+</figure>
+
+<p>Here is another example of a scroll down button:</p>
+<figure class="code-highlight">
+  <div class="code-title">Section body</div>
+<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">footer</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"hero-footer section-footer-right section-footer-left-md footer-scrolldown"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn-scrolldown-a"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#about"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"text-before-vertical"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"char"</span>&gt;</span>S<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"char"</span>&gt;</span>C<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"char"</span>&gt;</span>R<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"char"</span>&gt;</span>O<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"char"</span>&gt;</span>L<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"char"</span>&gt;</span>L<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"icon icon-scrolldown"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">footer</span>&gt;</span>
+</code></pre>
+</figure>			</div>
+		</div>
+
+		<div class="dashboard-sidebar-right">
+			<nav class="collapse nav-sidebar-right" id="bd-docs-nav" aria-label="Docs navigation">
+
+
+        <p class="strong mb-0">On this page</p>
+        <div class="my-2 mr-0 border-top"> </div>
+    <ul class="list-unstyled mb-0">
+        <li class="my-1 ">
+            <a class="d-inline-flex align-items-center rounded " href="#overview" role="button"
+                aria-expanded="false">
+                Overview
+            </a>
+        </li>
+        <li class="my-1 ">
+            <a class="d-inline-flex align-items-center rounded " href="#introduction" role="button"
+                aria-expanded="false">
+                Introduction
+            </a>
+        </li>
+        <li class="my-1 ">
+            <a class="d-inline-flex align-items-center rounded " href="#structure" role="button"
+                aria-expanded="false">
+                Section structure
+            </a>
+        </li>
+        <li class="my-1 ">
+            <a class="d-inline-flex align-items-center rounded " href="#parameters" role="button"
+                aria-expanded="false">
+                Parameters
+            </a>
+        </li>
+        <li class="my-1 ">
+            <a class="d-inline-flex align-items-center rounded " href="#section-cover" role="button"
+                aria-expanded="false">
+                Background image
+            </a>
+        </li>
+        <li class="my-1 ">
+            <a class="d-inline-flex align-items-center rounded " href="#section-title" role="button"
+                aria-expanded="false">
+                Background text
+            </a>
+        </li>
+        <li class="my-1 ">
+            <a class="d-inline-flex align-items-center rounded " href="#section-body" role="button"
+                aria-expanded="false">
+                Section body
+            </a>
+        </li>
+        <li class="my-1 ">
+            <a class="d-inline-flex align-items-center rounded " href="#section-footer" role="button"
+                aria-expanded="false">
+                Section footer
+            </a>
+        </li>
+
+
+
+
+    </ul>
+</nav>		</div>
+	</main> 
+	<!-- END OF page main content -->
+	
+	<!-- scripts -->
+<!-- All Javascript plugins goes here -->
+<script src="./assets/js/bootstrap.min.js"></script>
+<script src="./assets/js/clipboard.min.js"></script>
+<script src="./assets/js/prism.js"></script>
+ 
+<!-- Javascript main files -->
+<script src="./assets/js/main.js"></script>
+ 
+ 
+</body>
+
+</html>

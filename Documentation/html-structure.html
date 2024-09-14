@@ -1,0 +1,916 @@
+<!doctype html>
+<!--
+Website By Miradontsoa / MiVFX
+http://twitter.com/miradontsoa
+http://cutekit.net
+-->
+
+
+
+<html class="no-js" lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<!-- Page Title Here -->
+<title>Simpleux - Website template</title>
+
+<!-- Meta -->
+<!-- Page Description Here -->
+<meta name="description" content="A beautiful and creative portfolio template. It is mobile friend (responsive) and comes with smooth animations">
+
+<!-- Disable screen scaling-->
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, user-scalable=0">
+ 	
+	<!-- Web fonts and Web Icons -->
+<link rel="stylesheet" href="./assets/fonts/ionicons/stylesheet.css">
+
+<!-- Uncomment below to load individualy vendor CSS -->
+<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="./assets/js/prism.css">
+
+<!-- Main CSS files -->
+<link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body id="menu" class="dashboard-body"> 
+
+	<header class="navbar navbar-expand navbar-dark dashboard-nav">
+    <nav class="container-xxl flex-wrap flex-md-nowrap" aria-label="Main navigation">
+        <a class="navbar-brand p-0 mr-2" href="./index.html" aria-label="Bootstrap">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="33.336" viewBox="0 0 40 33.336">
+                <path id="book"
+                    d="M-1057.016-471.255c-3.609-3.364-9.634-3.917-15.64-3.917a2.707,2.707,0,0,1-2.7-2.828v-23.84a2.657,2.657,0,0,1,1.189-2.214,2.675,2.675,0,0,1,1.515-.444c5.714.025,9.982.729,13.035,2.167a12.115,12.115,0,0,1,2.73,1.735,1.316,1.316,0,0,1,.461,1v28.091a.341.341,0,0,1-.21.315.349.349,0,0,1-.137.028A.351.351,0,0,1-1057.016-471.255Zm2.925.05a.328.328,0,0,1-.2-.3V-499.6a1.321,1.321,0,0,1,.46-1,12.174,12.174,0,0,1,2.73-1.731c3.054-1.441,7.321-2.142,13.036-2.167a2.675,2.675,0,0,1,1.515.442,2.655,2.655,0,0,1,1.193,2.217v24a2.686,2.686,0,0,1-2.7,2.667c-9.688,0-13.5,1.776-15.665,3.9a.335.335,0,0,1-.233.094A.338.338,0,0,1-1054.091-471.205Z"
+                    transform="translate(1075.36 504.498)" fill="#ffffff" />
+            </svg>
+
+        </a>
+
+        <div
+            class="navbar-nav-scroll order-3 order-md-0 d-flex justify-content-center justify-content-md-start mt-1 mt-md-0">
+            <ul class="navbar-nav bd-navbar-nav flex-row py-2 py-md-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="true"
+                        href="./index.html">Docs</a>
+                </li>
+            </ul>
+        </div>
+
+        <ul class="navbar-nav nav-icons ml-sm-auto">
+
+        </ul>
+
+        <a class="btn btn-white d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3" href="https://cutekit.net/product">More Products</a>
+    </nav>
+</header>
+	<!-- BEGIN OF page main content --> 
+
+	<main class="dashboard-container container-xxl" role="main" >
+		<div class="dashboard-sidebar-left">
+			<nav class="collapse nav-sidebar-left" id="bd-docs-nav" aria-label="Docs navigation">
+	<ul class="list-unstyled mb-0">
+			<li class="my-1 ">
+				<a class="d-inline-flex align-items-center rounded " href="./index.html" role="button"
+					aria-expanded="false">
+					Introduction
+				</a>
+			</li>
+
+			<li class="my-1 active">
+				<a class="d-inline-flex align-items-center rounded " href="./html-structure.html" role="button"
+					aria-expanded="false">
+					HTML Structure
+				</a>
+			</li>
+
+			<li class="my-1 ">
+				<a class="d-inline-flex align-items-center rounded " href="./sections.html" role="button"
+					aria-expanded="false">
+					Sections
+				</a>
+			</li>
+
+
+			<li class="my-3 mr-4 border-top">
+			</li>
+			<li class="my-1 ">
+				<a class="d-inline-flex align-items-center rounded " href="./css.html" role="button"
+					aria-expanded="false">
+					CSS &amp; SCSS
+				</a>
+			</li>
+
+			<li class="my-1 ">
+				<a class="d-inline-flex align-items-center rounded " href="./javascript.html" role="button"
+					aria-expanded="false">
+					Javascript
+				</a>
+			</li>
+
+			<li class="my-1 ">
+				<a class="d-inline-flex align-items-center rounded " href="./php.html" role="button"
+					aria-expanded="false">
+					PHP Server
+				</a>
+			</li>
+
+
+ 
+ 
+ 
+	</ul>
+</nav>		</div>
+		
+		<div class="dashboard-main content">
+			<div class="dashboard-content" id="top">
+<div class="content-intro" id="overview">
+  <h2 class="">HTML Structure</h2>
+  <p>Structure of the HTML pages.</p>
+</div>
+
+
+<h2>HTML Files</h2>
+<p>Here is the general structure of the HTML pages (.html files such as index.html):</p>
+<ul>
+  <li><a href="#head">The HTML head Tag</a> contains meta data for SEO, CSS include and social networks meta data.
+  </li>
+  <li><a href="#navigation-bar">The navigation bar (at top)</a> of a page is nested within a tag with class
+    <code>navbar-top</code>. It
+    includes the logo (left), the menu icon, and the menu links .
+  </li>
+  <li><a href="#navigation-sidebar">The sidebar navigation (at left)</a>, located within the <code>nav-sidebar</code>.
+  </li>
+  <li><a href="#page-cover">The background cover of the page</a> is nested within a div tag with a class
+    <code>cover-page</code>.
+  </li>
+  <li>
+    <a href="#page-main">The main content</a> of the page is nested within a tag with a class <code>page-main</code>.
+    It contains one or several section, represented by tag (a section or a div) with class <code>section</code>.
+  </li>
+  <li><a href="#footer">The footer</a> of the page, containing basic information such as copyright notice or social
+    networks links. It is located within the footer tag with class <code>footer-page</code>.
+  </li>
+  <li>And the <a href="#scripts">scripts files</a> required by the page such as Bootstrap.
+  </li>
+</ul>
+
+<figure class="code-highlight" id="html-structure-code">
+  <div class="code-title">HTML file structure</div>
+<pre><code class="language-html"><span class="hljs-meta">&lt;!doctype html&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"no-js"</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">"en"</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+  ... head tav
+<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">body</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"menu"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"body-page"</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">header</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"navbar-top ..."</span>&gt;</span>
+    ... navigation bar at top
+  <span class="hljs-tag">&lt;/<span class="hljs-name">header</span>&gt;</span>
+
+  <span class="hljs-comment">&lt;!-- optional dot nav --&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">nav</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-dot-menu"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">nav</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">nav</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-sidebar ..."</span>&gt;</span>
+    ... sidebar navigation
+  <span class="hljs-tag">&lt;/<span class="hljs-name">nav</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"cover-page ..."</span>&gt;</span>
+    ... page background image / cover
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">main</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"page-main ..."</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"mainpage"</span>&gt;</span>
+
+    <span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"section ..."</span> <span class="hljs-attr">data-section</span>=<span class="hljs-string">"section-id"</span>&gt;</span>
+      ... a section
+    <span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
+
+    ... other sections
+
+  <span class="hljs-tag">&lt;/<span class="hljs-name">main</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">footer</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"site-footer"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"footer-page "</span>&gt;</span>
+    ... page footer
+  <span class="hljs-tag">&lt;/<span class="hljs-name">footer</span>&gt;</span>
+
+  <span class="hljs-comment">&lt;!-- Scripts --&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"...javascript-file.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+  ... other javascripts
+
+<span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
+</code></pre>
+</figure>
+
+
+
+<!-- Head Tag Title and SEO -->
+<h2 id="head"><strong>Head tag</strong> - <a href="#top">top</a></h2>
+<p>The <code>&lt;head&gt;</code> tag contains the Title and description of the tag, used
+  by search engine to identify your website. It may also include, third-party meta,
+  such as social network meta (mainly Facebook and Twitter) helping them to describe your website.</p>
+
+<p>Change the title and the description of your page by editing the <code>title</code> tag value, and the
+  <code>content</code> value of the tag <code>&lt;meta name="description" content="YOUR DESCRIPTION"&gt;</code>.
+  Additionaly, you can add Facebook Opengraph data or Twitter metadata for better compatibility with these social
+  networks.</p>
+
+<p>Required CSS files (such as main stylesheet, web fonts, bootstrap, ...) are also included within the
+  <code>&lt;head&gt;</code> tag. Add them by using the link tag such as :
+  <br><code>&lt;link rel="stylesheet" href="...url-to-css-file.css"&gt;</code>.
+</p>
+<p>Here is the structure of the <code>&lt;head&gt;</code> tag:</p>
+<figure class="code-highlight">
+  <div class="code-title">HTML Head tag</div>
+<pre><code class="language-html">
+<span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">http-equiv</span>=<span class="hljs-string">"content-type"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"text/html; charset=UTF-8"</span>&gt;</span>
+
+  <span class="hljs-comment">&lt;!-- Page Title Here --&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Website title<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+
+  <span class="hljs-comment">&lt;!-- Meta --&gt;</span>
+  <span class="hljs-comment">&lt;!-- Page Description Here --&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"description"</span> <span class="hljs-attr">content</span>=<span class="hljs-string">"YOUR DESCRIPTION"</span>&gt;</span>
+
+  <span class="hljs-comment">&lt;!-- Disable screen scaling--&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"viewport"</span>
+    <span class="hljs-attr">content</span>=<span class="hljs-string">"width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, user-scalable=0"</span>&gt;</span>
+
+  <span class="hljs-comment">&lt;!-- Third party meta (Facebook, Twitter, ... ) --&gt;</span>
+
+  <span class="hljs-comment">&lt;!-- Place favicon.ico and apple-touch-icon(s) in the root directory --&gt;</span>
+  <span class="hljs-comment">&lt;!-- Web fonts and Web Icons --&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">"stylesheet"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"./fonts/ionicons/stylesheet.css"</span>&gt;</span>
+  <span class="hljs-comment">&lt;!-- Add other webfont such as Google font here --&gt;</span>
+
+  <span class="hljs-comment">&lt;!-- Vendor CSS style --&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">"stylesheet"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"./css/pageloader.css"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">"stylesheet"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"./css/bootstrap.min.css"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">"stylesheet"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"./js/scroll/locomotive-scroll.min.css"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">"stylesheet"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"./js/swiper/swiper-bundle.css"</span>&gt;</span>
+
+  <span class="hljs-comment">&lt;!-- Main CSS files --&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">"stylesheet"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"./css/main.css"</span>&gt;</span>
+
+  <span class="hljs-comment">&lt;!-- add alt layout here --&gt;</span>
+  <span class="hljs-comment">&lt;!-- &lt;link rel="stylesheet" href="./css/CUSTOMIZATION-STYLE.css"&gt; --&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"./js/vendor/modernizr-2.7.1.min.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+
+</code></pre>
+</figure>
+
+
+<!-- Page header -->
+<!-- Header -->
+<h2 id="navigation-bar"><strong>Navigation bar</strong> - <a href="#top">top</a></h2>
+<img src="./assets/img/navigation-top.png" alt="Illustration">
+<br>
+<p>The navgation bar , positioned at the top of the screen, are located within the tag with
+  <code>navbar-top</code> class.</p>
+<p>It contains :</p>
+<ul>
+  <li>The logo, represented by the tag with class <code>navbar-brand</code>. The logo is represented by the
+    <code>img</code> tag.
+    It may contains two images : img with class <code>light-logo</code> or img with class <code>dark-logo</code> to
+    contrast the logo with the background color of the page.
+    The tag with class <code>text</code> represents the title and a short description of the page.</li>
+  <li>The menu button, represented by the tag with class <code>navbar-toggler</code></li>
+  <li>The navigation menu content which can be divided into several parts :
+    <ul>
+      <li>
+        The menu links at top represented with the tag with class <code>nav-menu-top</code>.
+        Each menu item is represented by a
+        <code>li</code> element with the following structure:
+<figure class="code-highlight">
+<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-item"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-link active"</span> <span class="hljs-attr">aria-current</span>=<span class="hljs-string">"page"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>About<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+</code></pre>
+</figure>
+
+  </li>
+  <li>
+    The menu links (which appear as a fullscreen menu when the menu button
+    is clicked on large devices) embedded within the tag with class <code>nav-fullscreen-lg</code>.
+    Each menu item is represented by a
+    <code>li</code> element with the following structure:
+<figure class="code-highlight">
+<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-item"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-link active"</span> <span class="hljs-attr">aria-current</span>=<span class="hljs-string">"page"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>Home<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+</code></pre>
+</figure>
+  </li>
+  <li>
+    The call to action links at top represented with the tag with class <code>nav-cta</code>.
+    Each menu item is represented by a
+    <code>li</code> element with the following structure:
+<figure class="code-highlight">
+<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-item"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-outline btn-white rounded-pill"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"text"</span>&gt;</span>Button<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+</code></pre>
+</figure>
+  </li>
+  <li>Optional social icons menu for small screen devices, represented by the tag
+    with class <code>nav-footer-md</code></li>
+
+</ul>
+</li>
+</ul>
+
+
+<p>Here is the structure of the
+  <code>&lt;header class="page-header ..."&gt;</code> tag :</p>
+
+<figure class="code-highlight">
+  <div class="code-title">Navigation bar</div>
+<pre><code class="language-html"><span class="hljs-comment">&lt;!-- Begin of navigation bar .navbar-top --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">header</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"navbar-top navbar navbar-a navbar-expand-lg navbar-dark "</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">nav</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"container-fluid px-0"</span>&gt;</span>
+
+    <span class="hljs-comment">&lt;!-- Logo --&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"navbar-brand"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"logo"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"light-logo"</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"img/logo.svg"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"Simpleux Template"</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"text ml-3"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"line strong"</span>&gt;</span>Simpleux<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"line sub"</span>&gt;</span>Portfolio Template<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+
+    <span class="hljs-comment">&lt;!-- Menu button --&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"navbar-toggler order-lg-2"</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">data-toggle</span>=<span class="hljs-string">"collapse"</span> <span class="hljs-attr">data-target</span>=<span class="hljs-string">"#navbarMenuCollapse"</span>
+      <span class="hljs-attr">aria-controls</span>=<span class="hljs-string">"navbarMenuCollapse"</span> <span class="hljs-attr">aria-expanded</span>=<span class="hljs-string">"false"</span> <span class="hljs-attr">aria-label</span>=<span class="hljs-string">"Toggle navigation"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"icon icon-menu icon-menu-a"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"bars"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"bar1"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"bar2"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"bar3"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+
+    <span class="hljs-comment">&lt;!-- Navigation menu --&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"collapse navbar-collapse order-lg-1"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"navbarMenuCollapse"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"navbar-menu-wrapper"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-body"</span>&gt;</span>
+          <span class="hljs-comment">&lt;!-- Menu links at top --&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"navbar-nav nav-menu-top"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-item"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-link active"</span> <span class="hljs-attr">aria-current</span>=<span class="hljs-string">"page"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>About<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-item dropdown"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-link dropdown-toggle"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"navbarTopDropdown"</span> <span class="hljs-attr">role</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">data-toggle</span>=<span class="hljs-string">"dropdown"</span>
+                <span class="hljs-attr">aria-expanded</span>=<span class="hljs-string">"false"</span>&gt;</span>
+                Projects
+              <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"dropdown-menu"</span> <span class="hljs-attr">aria-labelledby</span>=<span class="hljs-string">"navbarTopDropdown"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"dropdown-item"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>Design<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"dropdown-item"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>Branding<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>
+                  <span class="hljs-tag">&lt;<span class="hljs-name">hr</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"dropdown-divider"</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"dropdown-item"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>All my works<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+
+          <span class="hljs-comment">&lt;!-- Fullscreen menu on large devices --&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-fullscreen-lg"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"navbar-nav nav"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-item"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-link"</span> <span class="hljs-attr">aria-current</span>=<span class="hljs-string">"page"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>Home<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-item"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-link"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>Gallery<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-item"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-link"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>Item<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-item"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-link"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>Demo<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+          <span class="hljs-comment">&lt;!-- Call to action buttons --&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"navbar-nav nav-cta"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-item"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-outline btn-white rounded-pill"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"text"</span>&gt;</span>Buy now<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+        <span class="hljs-comment">&lt;!-- Nav footer of small devices --&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-footer-md"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">nav</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-social nav-social-a"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-item"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-link btn"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>
+                  <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"icon"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"ion ion-logo-instagram"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>
+                  <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-item"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-link btn"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>
+                  <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"icon"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"ion ion-logo-twitter"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>
+                  <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-item"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-link btn"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>
+                  <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"icon"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"ion ion-logo-dribbble"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>
+                  <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+              <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">nav</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">nav</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">header</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- End of navigation bar .navbar-top --&gt;</span>
+
+</code></pre>
+</figure>
+
+<p>You can add new menu item by duplicating an li tag corresponding to the one that you want.</p>
+<p>Replace your
+  <code>img/logo.svg</code> by your logo URL or go to img folder and replace logo.png sample image with yours.</p>
+
+<!-- Sidebar -->
+<h2 id="navigation-sidebar"><strong>Sidebar navigation</strong> - <a href="#top">top</a></h2>
+<img src="./assets/img/sidebar.png" alt="Illustration">
+<br>
+<p>The sidebar navigation , positioned at the left of the screen, are located within the tag with
+  <code>navbar-sidebar</code> class.</p>
+<p>It has the following structure :</p>
+
+<figure class="code-highlight">
+  <div class="code-title">Sidebar</div>
+<pre><code class="language-html"><span class="hljs-comment">&lt;!-- Begin of sidebar .nav-sidebar --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">nav</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-sidebar d-none d-xl-block"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-wrapper"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-item active"</span> <span class="hljs-attr">data-section-anchor</span>=<span class="hljs-string">"home"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#home"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-link"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"icon"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"ion ion-md-home"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"text"</span>&gt;</span>Home<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-item"</span> <span class="hljs-attr">data-section-anchor</span>=<span class="hljs-string">"services"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#services"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-link"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"icon"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"ion ion-md-apps"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"text"</span>&gt;</span>Services<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-item"</span> <span class="hljs-attr">data-section-anchor</span>=<span class="hljs-string">"works"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#works"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-link"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"icon"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"ion ion-md-image"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"text"</span>&gt;</span>Works<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-item"</span> <span class="hljs-attr">data-section-anchor</span>=<span class="hljs-string">"contact"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#contact"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-link"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"icon"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"ion ion-md-call"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"text"</span>&gt;</span>Contact<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">nav</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- End of sidebar .nav-sidebar --&gt;</span>
+</code></pre>
+</figure>
+
+<p>A menu item is represented by the li tag with class <code>nav-item</code>. Here, we use Ionicons webfont to
+  illustrate an icon. Use the following code to add more :</p>
+<figure class="code-highlight">
+<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-item active"</span> <span class="hljs-attr">data-section-anchor</span>=<span class="hljs-string">"home"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#home"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-link"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"icon"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"ion ion-md-home"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"text"</span>&gt;</span>Home<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+</code></pre>
+</figure>
+
+
+<!-- Background cover -->
+<h2 id="page-cover"><strong>Background cover</strong> - <a href="#top">top</a></h2>
+<img src="./assets/img/bg-image.png" alt="illustration">
+<br>
+<p>This part represents the fullscreen background image, background video or particles animations of the page. It is
+  located within the tag with a class <code>cover-page</code>.</p>
+
+<figure class="code-highlight">
+  <div class="code-title">Background cover</div>
+<pre><code class="language-html"><span class="hljs-comment">&lt;!-- BEGIN OF page cover --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"cover-page"</span>&gt;</span>
+  <span class="hljs-comment">&lt;!-- Cover Background --&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"cover-bg"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fit"</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"IMAGE_URL"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"cover"</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+  <span class="hljs-comment">&lt;!-- A cover-bg layer --&gt;</span>
+
+  <span class="hljs-comment">&lt;!-- Example : A mask layer--&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"cover-bg bg-black opacity-8"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-comment">&lt;!--END OF page cover --&gt;</span>
+</code></pre>
+</figure>
+
+<p>It can embed several layers of div with class <code>cover-bg</code> such as:
+<ul>
+  <li><a href="#static-bg">static image</a>, </li>
+  <li><a href="#color-bg">solid rgba color</a>, </li>
+  <li><a href="#video-bg">video</a> </li>
+  <li><a href="#other-bg">Others</a> </li>
+</ul>
+</p>
+
+<h3 id="static-bg">Static image layer</h3>
+<p>A static image layer is obtained by using a div with class <code>cover-bg</code> with
+  the following code. Just replace the IMAGE_URL value by your background image:</p>
+
+<figure class="code-highlight">
+  <div class="code-title">Image layer</div>
+<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"cover-bg"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fit"</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"IMAGE_URL"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"cover"</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+</figure>
+
+<h3 id="color-bg">Color or gradient layer</h3>
+<p>A color layer is obtained by adding a div with class <code>cover-bg</code>. Use additional class to the layer (such
+  as bg-color, opacity) and set its style in your CSS rules.</p>
+
+<img src="./assets/img/bg-color.png" alt="illustration">
+<figure class="code-highlight">
+  <div class="code-title">HTML Image layer</div>
+<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"cover-bg bg-page-cover"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+</figure>
+
+<figure class="code-highlight">
+  <div class="code-title">CSS : Example of CSS style for image layer</div>
+<pre><code class="language-css"><span class="hljs-selector-class">.bg-page-cover</span>{
+  <span class="hljs-attribute">background-color</span>: <span class="hljs-number">#D1335B</span>;
+}
+</code></pre>
+</figure>
+
+
+<h3 id="video-bg">Video layer</h3>
+<p>A video layer is obtained by using a div with classes <code>cover-bg video container</code>.</p>
+
+<img src="./assets/img/bg-video.png" alt="illustration">
+<h4>Video file</h4>
+<p>For example, the following code uses an mp4 video file as video source. Edit the source url
+  <code>source src="..."</code> to match to your video
+  (replace the loop_bg.mp4 video under the vid folder by another one):</p>
+
+<figure class="code-highlight">
+  <div class="code-title">Video layer for video file</div>
+<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"cover-bg video-container"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">video</span> <span class="hljs-attr">autoplay</span>=<span class="hljs-string">"autoplay"</span> <span class="hljs-attr">loop</span>=<span class="hljs-string">"loop"</span> <span class="hljs-attr">autobuffer</span>=<span class="hljs-string">"autobuffer"</span> <span class="hljs-attr">muted</span>=<span class="hljs-string">"muted"</span> <span class="hljs-attr">width</span>=<span class="hljs-string">"640"</span> <span class="hljs-attr">height</span>=<span class="hljs-string">"360"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">source</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"vid/loop_bg.mp4"</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"video/mp4"</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">video</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+</figure>
+<p>Check out <code>index-video.html</code> file for a demo.</p>
+<p>Tips : You may want to deactivated video on mobile device for performance reason. To do so, add classes
+  <code>d-none d-md-block</code> to this layer of div with classes <code>cover-bg video-container</code>.</p>
+
+<h4>Youtube, Vimeo or any iframe</h4>
+<p>To use Youtube, or Vimeo video layer, embed the <code>iframe</code> provided by them (from youtube, vimeo ...) inside
+  the div with classes <code>cover-bg video-container</code> such as:</p>
+<figure class="code-highlight">
+  <div class="code-title">Video layer for Youtube, Vimeo, Iframe</div>
+<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"cover-bg video-container"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">iframe</span> <span class="hljs-attr">frameborder</span>=<span class="hljs-string">"0"</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://youtube.com/embed/ID_OF_VIDEO?autoplay=1&amp;controls=0&amp;showinfo=0&amp;autohide=1"</span> /&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+</figure>
+
+<h3 id="other-bg">Other layer</h3>
+<p>You may want to add other background layer such as WebGL animation, Image slideshow, Web Canvas,
+  Google Maps or any other cool animation as background cover.</p>
+<p>To do so, add your code inside a div with class <code>cover-bg</code>.</p>
+
+
+
+
+<!-- Site main content -->
+<h2 id="page-main"><strong>Main content of the page</strong> - <a href="#top">top</a></h2>
+<p>The main content of the page is located within the main or div tag with a class <code>page-main</code>.</p>
+<p>It is a combination of multiple components called
+  <a href="./sections.html">Section</a>.
+  A section is represented by a section or a div tag with class <code>section</code>.
+</p>
+
+
+<figure class="code-highlight">
+  <div class="code-title">Page Main content</div>
+<pre><code class="language-html"><span class="hljs-comment">&lt;!-- BEGIN OF page main content --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">main</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"page-main  ..."</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"..."</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"section ..."</span> <span class="hljs-attr">...</span>&gt;</span>
+    ... A section
+  <span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
+  <span class="hljs-comment">&lt;!-- ... Another section --&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">main</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- END OF page main content --&gt;</span>
+</code></pre>
+</figure>
+
+<p>
+  You may divide a main content into two columns by using Bootstrap column: Add a class <code>page-twocols</code> to it.
+</p>
+<p>
+  To fix the position of a part on scroll, add class <code>col-fixed</code> to it such as:
+</p>
+<p>
+  To set a part scroll on page scroll,add class <code>col-scroll</code> to it such as:
+</p>
+<figure class="code-highlight">
+  <div class="code-title">Page Main content</div>
+<pre><code class="language-html"><span class="hljs-comment">&lt;!-- BEGIN OF page main content --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">main</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"page-main page-twocols ..."</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"..."</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row g-0 cols-container"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-12 col-lg-4 col-fixed"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"section ..."</span> <span class="hljs-attr">...</span>&gt;</span>
+        ... A section at left on large device
+      <span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-12 col-lg-8 col-scroll"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"section ..."</span> <span class="hljs-attr">...</span>&gt;</span>
+        ... A section at right on large device
+      <span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
+      <span class="hljs-comment">&lt;!-- Another section --&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>  
+<span class="hljs-tag">&lt;/<span class="hljs-name">main</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- END OF page main content --&gt;</span>
+</code></pre>
+</figure>
+
+
+<h3>Parameters</h3>
+<p>A <code>page-main</code> may have the following parameters : </p>
+<ul>
+  <li><a href="#anim-scroll-nav">Scroll navigation</a></li>
+  <li><a href="#anim-scroll-anim">Scroll animation</a></li>
+  <li><a href="#anim-scroll-slideshow-fullpage">Slideshow scroll with fullpage.js</a></li>
+  <li><a href="#anim-scroll-slideshow-css">Slideshow scroll with CSS</a></li>
+  <li><a href="#anim-scroll-locomotive">Locomotive scroll</a></li>
+</ul>
+
+<h3 id="anim-scroll-nav">Scroll navigation</h3>
+<p>Class <code>sections-scroll</code> will add dots navigation at right of the page-cover
+  when a nav with class <code>nav-dot-menu</code> is added after the <a href="#html-structure-code">navigation bar
+    elements</a>.</p>
+<p>It will also add class <code>active</code> to an element with an attribute
+  <code>data-section-anchor="SECTION_ID"</code> when
+  the section with <code>id="SECTION_ID"</code> is visible on screen.</p>
+
+<figure class="code-highlight">
+  <div class="code-title">HTML Page Main content</div>
+<pre><code class="language-html"><span class="hljs-comment">&lt;!-- BEGIN OF page main content --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">main</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"page-main sections-scroll ..."</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"..."</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"section ..."</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"SECTION_ID"</span>&gt;</span>
+    ... A section
+  <span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
+  <span class="hljs-comment">&lt;!-- ... Another section --&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">main</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- END OF page main content --&gt;</span>
+</code></pre>
+</figure>
+
+<h3 id="anim-scroll-anim">Scroll animation</h3>
+<p>Class <code>main-anim</code> will enable animation on page scroll.</p>
+
+<h3 id="anim-scroll-slideshow-fullpage">Slideshow scroll with fullpage js</h3>
+<p>Optional class <code>page-fullpage</code> can be added as class of the <code>&lt;main&gt;</code> tag to get
+  slideshow effect behavehior on page scroll by using fullpage.js v2 plugin.</p>
+<p>
+  This requires that all the sections of the page should have unique and different <code>data-section</code> attribute
+  values and <strong>should not have an <code>id</code> attribute</strong>.
+  You may also need to add class <code>fp-auto-height-responsive</code> to each section to get a better render result on
+  mobile devices.
+</p>
+<figure class="code-highlight">
+  <div class="code-title">HTML Slideshow scroll</div>
+<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">main</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"page-main page-fullpage"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"mainpage"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">section</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"section fp-auto-height-responsive ..."</span> <span class="hljs-attr">data-section</span>=<span class="hljs-string">"UNIQUE_VALUE_PER_SECTION"</span>&gt;</span>
+    ... A section
+  <span class="hljs-tag">&lt;/<span class="hljs-name">section</span>&gt;</span>
+  <span class="hljs-comment">&lt;!-- ... Another section --&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">main</span>&gt;</span>
+</code></pre>
+</figure>
+
+
+<h3 id="anim-scroll-slideshow-css">Slideshow scroll with CSS</h3>
+<p>This is an upcoming option.</p>
+
+<h3 id="anim-scroll-locomotive">Locomotive scroll</h3>
+<p>This is an upcoming option.</p>
+
+
+
+
+<!-- Page footer -->
+<h2 id="footer"><strong>Page footer</strong> - <a href="#top">top</a></h2>
+<img src="./assets/img/footer.png" alt="illustration">
+<p>At bottom of the page, the div with class <code>footer-page</code> embeds the social links (ul with class
+  <code>social</code>), and additional website footer notice (such as copyright).</p>
+
+<figure class="code-highlight">
+  <div class="code-title">Page footer</div>
+<pre><code class="language-html"><span class="hljs-comment">&lt;!-- BEGIN OF page footer --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">footer</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"site-footer"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"footer-page"</span>&gt;</span>
+  <span class="hljs-comment">&lt;!-- Left content --&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"footer-left"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"note text-sm"</span>&gt;</span>&amp;copy; 2000 <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"http://example.com"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"marked"</span>&gt;</span>Brand Co.<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-comment">&lt;!-- Right content --&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"footer-right"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">nav</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-social nav-social-a"</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-item"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-link btn"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"icon"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"ion ion-logo-instagram"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-item"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-link btn"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"icon"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"ion ion-logo-twitter"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-item"</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"nav-link btn"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"icon"</span>&gt;</span>
+              <span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"ion ion-logo-linkedin"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+          <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">nav</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">footer</span>&gt;</span>
+<span class="hljs-comment">&lt;!-- END OF site footer --&gt;</span>
+</code></pre>
+</figure>
+
+<p>Social links icons here use ionicons and font awesome icons. </p>
+<p>Fontawesome icons are presented by a <code>&lt;a href="..."&gt;&lt;i class="fa
+    fa-SOCIALNET"&gt;&lt;/i&gt;&lt;/a&gt;
+  </code> line.<code>SOCIALNET</code> value can be "facebook", "twitter", ... <br>
+</p>
+<p>For Ionicons, they are presented by a <code>&lt;a href="..."&gt;&lt;i class="ion
+    ion-logo-SOCIALNET"&gt;&lt;/i&gt;&lt;/a&gt;
+  </code> line.<code>SOCIALNET</code> value can be "facebook", "twitter", ... <br>
+</p>
+<p>
+  Duplicate these line and edit <code>SOCIALNET</code>
+  by a custom one (pinterest, tumblr, ...) if you add more than the
+  defaults links in the template.</p>
+<p>Legal notice are located withini the div with class <code>footer-left</code>.</p>
+
+
+<h2 id="scripts">Scripts</h2>
+<p>Scripts used by the page are placed at the bottom of the body tag. </p>
+<figure class="code-highlight">
+  <div class="code-title">Page footer</div>
+<pre><code class="language-html"><span class="hljs-comment">&lt;!-- scripts --&gt;</span>
+<span class="hljs-comment">&lt;!-- All Javascript plugins goes here --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"./js/bootstrap.min.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+
+<span class="hljs-comment">&lt;!-- All vendor scripts --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"./js/swiper/swiper-bundle.min.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"./js/rellax/rellax-custom.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+
+<span class="hljs-comment">&lt;!-- Form script --&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"./js/scroll-slider.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"./js/section-scroll.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+
+<span class="hljs-comment">&lt;!-- Javascript main files --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"./js/main.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+</figure>
+
+<p>Import third party plugins and main.js file there by using the following line of code:</p>
+<figure class="code-highlight">
+  <div class="code-title">Page footer</div>
+<pre><code class="language-html"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"SCRIPT_URL.js"</span>&gt;</span><span class="undefined"></span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></pre>
+</figure>			</div>
+		</div>
+
+		<div class="dashboard-sidebar-right">
+			<nav class="collapse nav-sidebar-right" id="bd-docs-nav" aria-label="Docs navigation">
+
+
+        <p class="strong mb-0">On this page</p>
+        <div class="my-2 mr-0 border-top"> </div>
+    <ul class="list-unstyled mb-0">
+        <li class="my-1 ">
+            <a class="d-inline-flex align-items-center rounded " href="#overview" role="button"
+                aria-expanded="false">
+                Overview
+            </a>
+        </li>
+        <li class="my-1 ">
+            <a class="d-inline-flex align-items-center rounded " href="#head" role="button"
+                aria-expanded="false">
+                Head
+            </a>
+        </li>
+        <li class="my-1 ">
+            <a class="d-inline-flex align-items-center rounded " href="#navigation-bar" role="button"
+                aria-expanded="false">
+                Navigation bar
+            </a>
+        </li>
+        <li class="my-1 ">
+            <a class="d-inline-flex align-items-center rounded " href="#navigation-sidebar" role="button"
+                aria-expanded="false">
+                Sidebar
+            </a>
+        </li>
+        <li class="my-1 ">
+            <a class="d-inline-flex align-items-center rounded " href="#page-cover" role="button"
+                aria-expanded="false">
+                Background cover
+            </a>
+        </li>
+        <li class="my-1 ">
+            <a class="d-inline-flex align-items-center rounded " href="#page-main" role="button"
+                aria-expanded="false">
+                Main content
+            </a>
+        </li>
+        <li class="my-1 ">
+            <a class="d-inline-flex align-items-center rounded " href="#footer" role="button"
+                aria-expanded="false">
+                Page footer
+            </a>
+        </li>
+        <li class="my-1 ">
+            <a class="d-inline-flex align-items-center rounded " href="#scripts" role="button"
+                aria-expanded="false">
+                Scripts
+            </a>
+        </li>
+
+
+
+
+    </ul>
+</nav>		</div>
+	</main> 
+	<!-- END OF page main content -->
+	
+	<!-- scripts -->
+<!-- All Javascript plugins goes here -->
+<script src="./assets/js/bootstrap.min.js"></script>
+<script src="./assets/js/clipboard.min.js"></script>
+<script src="./assets/js/prism.js"></script>
+ 
+<!-- Javascript main files -->
+<script src="./assets/js/main.js"></script>
+ 
+ 
+</body>
+
+</html>
